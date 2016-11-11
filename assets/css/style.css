@@ -19,9 +19,9 @@ nav {
 }
 
 .profile_pic {
-	height: 200px;
+	height: 300px;
 	width: 200px;
-	clip: rect(0px 200px 200px 0px);
+	
 
 }
 
