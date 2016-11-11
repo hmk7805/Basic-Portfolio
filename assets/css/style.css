@@ -1,4 +1,12 @@
+body{
+	background-color: #FFFFFF
+
+}
+
 header{
+	margin: 0;
+	background-color: #FFFFFF;
+
 
 }
 
@@ -29,7 +37,9 @@ nav {
 
 }
 
-.contact {
+aside {
+	background-color: #FFFFFF
+	border:1px #DCDCDC;
 
 }
 
