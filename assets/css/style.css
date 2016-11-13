@@ -78,6 +78,7 @@ a {
 	position:absolute;
 	left:200px;
 	margin-bottom:20px;
+	overflow: hidden;
 }
 
 .about-page {
@@ -89,8 +90,6 @@ a {
 
 }
 
-
-
 .heading {
 	color:#4aaaa5;
 	padding:20px 20px 10px 20px;
@@ -100,7 +99,7 @@ a {
 
 .section-hr {
 	color:#cccccc;
-	height:1px;
+	height:2px;
 	width:610px;
 }
 
@@ -148,8 +147,70 @@ form {
 	color:#ffffff;
 	width:100px;
 
+}
+
+.portfolio-page {
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	float:left;
+	width:650px;
+	margin: 0px 0px 20px 0px;
+	padding-bottom: 50px;
+}
+
+figure {
+	width:225px;
+	height:190px;
+	position:relative;
+	margin:0px;
+	
+}
+
+.p1 {
+
+	width:225px;
+	height:150px;
+	position:absolute;
+	left:0;
+
 
 }
+
+h4 {
+	float:left;
+	margin:0;
+	padding: 15px;
+	position: absolute;
+	bottom:20px;
+	width:100%;
+	text-align: center;
+	color:#ffffff;
+	background-color:#4aaaa5;
+	font-weight: normal;
+
+}
+
+.left-photos {
+	width:225px;
+	height:150px;
+	margin:20px 20px 20px 75px;
+	overflow: hidden;
+	float:left;
+}
+
+.right-photos {
+	width:225px;
+	height: 150px;
+	margin:20px 75px 20px 20px;
+	overflow: hidden;
+	float:right;
+}
+
+.prof-img {
+	width:225px;
+	height: 150px;
+}
+
 
 aside {
 	text-align:center;
@@ -157,13 +218,14 @@ aside {
 	border: 1px solid #cccccc;
 	width: 270px;
 	padding: 15px;
-	margin: 0px 0px 0px 10px;
+	margin: 0px 0px 0px 0px;
 	float:right;
 
 }
 
 .connect {
 	color:#4aaaa5;
+	font-size: 20px;
 	clear:both;
 
 }
@@ -185,13 +247,14 @@ footer{
 	text-align: center;
 	color:#ffffff;
 	font-weight:normal;
-	font-size:16px;
+	font-size:10px;
 	background-color:#777777;
 	border-top:5px solid #4aaaa5;
-	position:fixed;
-	left:0px;
-	bottom:0px;
-	height:30px;
 	width:100%;
+	padding:20px;
+	position: fixed;
+	bottom:0px;
+	left: 0px;
+
 
 }
